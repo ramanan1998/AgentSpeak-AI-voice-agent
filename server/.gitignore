@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+KMS/
+docs/
+
+# Environment Variables
+.env
+.env.*
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Claude Code
+.claude/
+
+# Local Databases
+*.db
+*.sqlite3
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node (if frontend gets added later)
+node_modules/
+
+# UV
+.python-version
+
+# Secrets
+*.pem
+*.key
+*.crt
+secrets.json
+credentials.json
